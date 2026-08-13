@@ -952,19 +952,19 @@ docker-production-lab/
 
 ## Docker Environment
 
-![Docker](screenshots/Docker.png)
+![Docker](screenshorts/Docker.png)
 
 ## Docker CLI
 
-![Docker CLI](screenshots/DockerCLI.png)
+![Docker CLI](screenshorts/DockerCLI.png)
 
 ## Bash / Terminal
 
-![Bash](screenshots/Bash.png)
+![Bash](screenshorts/Bash.png)
 
 ## Spring Boot API
 
-![Spring Boot API](screenshots/SpringbootAPI.png)
+![Spring Boot API](screenshorts/SpringbootAPI.png)
 
 ---
 
