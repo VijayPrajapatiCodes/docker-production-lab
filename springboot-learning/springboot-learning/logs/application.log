@@ -1,0 +1,46 @@
+2026-08-13T07:52:08.748+05:30  INFO 22028 --- [springboot-learning] [restartedMain] c.v.s.SpringbootLearningApplication      : Starting SpringbootLearningApplication using Java 21.0.11 with PID 22028 (C:\Users\vijay\Downloads\springboot-learning\springboot-learning\target\classes started by vijay in C:\Users\vijay\Downloads\springboot-learning\springboot-learning)
+2026-08-13T07:52:08.756+05:30  INFO 22028 --- [springboot-learning] [restartedMain] c.v.s.SpringbootLearningApplication      : The following 1 profile is active: "dev"
+2026-08-13T07:52:08.822+05:30  INFO 22028 --- [springboot-learning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-13T07:52:08.823+05:30  INFO 22028 --- [springboot-learning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-13T07:52:10.107+05:30  INFO 22028 --- [springboot-learning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-13T07:52:10.224+05:30  INFO 22028 --- [springboot-learning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2026-08-13T07:52:10.953+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-08-13T07:52:10.981+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-13T07:52:10.981+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-08-13T07:52:11.022+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-13T07:52:11.023+05:30  INFO 22028 --- [springboot-learning] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2199 ms
+2026-08-13T07:52:11.370+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-08-13T07:52:11.451+05:30  INFO 22028 --- [springboot-learning] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-08-13T07:52:11.494+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-08-13T07:52:11.923+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-13T07:52:11.956+05:30  INFO 22028 --- [springboot-learning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-13T07:52:12.416+05:30  INFO 22028 --- [springboot-learning] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16d5fe4d
+2026-08-13T07:52:12.417+05:30  INFO 22028 --- [springboot-learning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-13T07:52:12.525+05:30  INFO 22028 --- [springboot-learning] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-13T07:52:13.611+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-13T07:52:13.683+05:30  INFO 22028 --- [springboot-learning] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-13T07:52:14.098+05:30  WARN 22028 --- [springboot-learning] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-13T07:52:14.688+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-08-13T07:52:14.704+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2026-08-13T07:52:14.806+05:30  INFO 22028 --- [springboot-learning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2026-08-13T07:52:14.828+05:30  INFO 22028 --- [springboot-learning] [restartedMain] c.v.s.SpringbootLearningApplication      : Started SpringbootLearningApplication in 6.775 seconds (process running for 7.6)
+2026-08-13T07:52:15.071+05:30  INFO 22028 --- [springboot-learning] [restartedMain] c.v.s.service.AppPropertyDemo            : Application started in environment=Development
+2026-08-13T07:52:15.071+05:30  INFO 22028 --- [springboot-learning] [restartedMain] c.v.s.service.AppPropertyDemo            : Order created successfully, orderId=784, userId=101
+2026-08-13T07:52:15.071+05:30  INFO 22028 --- [springboot-learning] [restartedMain] c.v.s.service.AppPropertyDemo            : Payment initiated, orderId=784, amount=1499
+2026-08-13T07:52:15.071+05:30  WARN 22028 --- [springboot-learning] [restartedMain] c.v.s.service.AppPropertyDemo            : Payment taking longer than expected, orderId=784
+2026-08-13T07:52:15.071+05:30 ERROR 22028 --- [springboot-learning] [restartedMain] c.v.s.service.AppPropertyDemo            : Payment failed, orderId=784
+2026-08-13T07:54:25.663+05:30  INFO 22028 --- [springboot-learning] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-13T07:54:25.665+05:30  INFO 22028 --- [springboot-learning] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-13T07:54:25.667+05:30  INFO 22028 --- [springboot-learning] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-08-13T08:00:14.234+05:30  INFO 22028 --- [springboot-learning] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-13T08:00:14.242+05:30  INFO 22028 --- [springboot-learning] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-08-13T08:00:14.249+05:30  INFO 22028 --- [springboot-learning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-13T08:00:14.255+05:30  INFO 22028 --- [springboot-learning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-13T08:00:14.266+05:30  INFO 22028 --- [springboot-learning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
